@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="footer w-full lg:w-3/4 mx-auto footer-horizontal bg-neutral text-neutral-content p-40">
+      <div className="footer w-full lg:w-5/6 mx-auto footer-horizontal bg-neutral text-neutral-content p-40">
         <aside>
           <h3 className="text-xl font-medium">CONTACT US</h3>
           <p>123 ABS Street, Uni 21, Bangladesh</p>
@@ -51,8 +51,8 @@ const Footer = () => {
       </div>
       <aside>
         <p className="text-center">
-          Copyright © {new Date().getFullYear()} - All right reserved by ACME
-          Industries Ltd
+          Copyright © {new Date().getFullYear()} -CulinaryCloud. All rights
+          reserved.
         </p>
       </aside>
     </footer>
