@@ -1,5 +1,8 @@
 import Banner from "../../components/Home/Banner/Banner";
+import CallUs from "../../components/Home/CallUs/CallUs";
 import CategorySlider from "../../components/Home/Category/CategorySlider";
+import OurMenu from "../../components/Home/OurMenu/OurMenu";
+import Boss from "../../Shared/Boss/Boss";
 
 const Home = () => {
   return (
@@ -9,6 +12,9 @@ const Home = () => {
       </div>
       <div className="w-2/3 mx-auto">
         <CategorySlider />
+        <Boss />
+        <OurMenu />
+        <CallUs />
       </div>
     </div>
   );
