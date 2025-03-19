@@ -19,6 +19,11 @@ const OurMenu = () => {
           <MenuList key={singleMenu._id} singleMenu={singleMenu} />
         ))}
       </div>
+      <div className="flex justify-center">
+        <button className="uppercase text-lg  mt-12  border-b-2 border-black p-2 rounded-lg hover:bg-black hover:text-white">
+          view full menu
+        </button>
+      </div>
     </div>
   );
 };
